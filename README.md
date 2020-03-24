@@ -5,15 +5,19 @@ This is a hardware implementation of weighted order statistic (WOS) filter in CM
 ## Description
 The detailed description of the project can be found in our paper: [pdf](./project_description/2010-ICEDSA-NN-WOS) or [IEEE Xplore](https://doi.org/10.1109/ICEDSA.2010.5503078). 
 An analog circuit resembling a recurrent neural network is implemented in the project:
+
 ![Weighted order statistic neural network](./project_description/nn.tif "Weighted order statistic neural network")
 
 Each neuron in the first layer is designed to have a sign activation function, for which the circuit diagram is as follows:
+
 ![Circuit of each neuron in the first layer](./project_description/sign.tiff "Circuit of each neuron in the first layer")
 
 Thanks to the Kirchhoff's Current Law (KCL), the neuron in the second layer is made only by connecting the outputs of the first layer neurons and a current source (as the bias). The integrated circuit (IC) layout of the neuron is shown below:
+
 ![Layout of the first layer neuron](./project_description/layout.tiff "Layout of the first layer neuron")
 
 As an illustration the results of applying the weighted order statistic filter on a few signals to find their max, min, and median can be seen here:
+
 ![WOS filter working as a max filter](./project_description/max-tran.tif "WOS filter working as a max filter")
 
 ![WOS filter working as a min filter](./project_description/min-tran.tif "WOS filter working as a min filter")
