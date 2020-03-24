@@ -4,7 +4,7 @@
 This is a hardware implementation of weighted order statistic (WOS) filter in CMOS 0.35 &#956;m process using a specific recurrent neural network. Weighted order statistic filters can select *k*^th^ largest value of a statistical sample with sample points being repeated based on their weight. Maximum, minimum, and median are special cases in their operation. One of their main applications is in signal processing and specifically in noise removal. 
 
 ## Description
-The detailed description of the project can be found in our paper: [pdf](./project_description/2010-ICEDSA-NN-WOS) or [IEEE Xplore](https://doi.org/10.1109/ICEDSA.2010.5503078). 
+The detailed description of the project can be found in our paper: [pdf](./project_description/2010-ICEDSA-NN-WOS.pdf) or [IEEE Xplore](https://doi.org/10.1109/ICEDSA.2010.5503078). 
 An analog circuit resembling a recurrent neural network is implemented in the project:
 
 <p align="center">
