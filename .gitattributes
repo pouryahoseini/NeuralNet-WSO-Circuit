@@ -1,5 +1,3 @@
 # Set the programming language to the correct one
 docs/* linguist-documentation
-*.sp -linguist-vendored
-*.sp linguist-detectable
-netlists/*.sp linguistic-language=Java
+*.sp linguistic-language=Java
