@@ -1,4 +1,4 @@
-median filter
+Weighted order statistics filter set to work as a median filter
 
 .global vdd
 

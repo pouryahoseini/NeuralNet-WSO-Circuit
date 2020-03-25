@@ -1,4 +1,4 @@
-Hyperbolic tangent
+Neuron cell with a steep hyperbolic tangent activation function
 
 vdd	vdd	0	3.3
 
