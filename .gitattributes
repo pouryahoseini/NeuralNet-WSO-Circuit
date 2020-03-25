@@ -2,4 +2,4 @@
 # docs/* linguist-documentation
 # *.sp -linguist-vendored
 # *.sp linguist-detectable
-*.sp linguistic-language=Java
+netlists/*.sp linguistic-language=Java
