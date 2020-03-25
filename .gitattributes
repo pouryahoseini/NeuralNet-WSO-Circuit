@@ -1,5 +1,5 @@
 # Set the programming language to the correct one
 docs/* linguist-documentation
-# *.sp -linguist-vendored
+*.sp -linguist-vendored
 *.sp linguist-detectable
-*.sp linguistic-language=SPICE
+*.sp linguistic-language=Java
