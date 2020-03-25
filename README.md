@@ -8,13 +8,13 @@ The detailed description of the project can be found in our paper: [pdf](./docs/
 An analog circuit resembling a recurrent neural network is implemented in the project:
 
 <p align="center">
-  <img src="./docs/nn.tif" alt="Weighted order statistic neural network" height=200/>
+  <img src="./docs/nn.jpg" alt="Weighted order statistic neural network" height=200/>
 </p>
 
 Each neuron in the first layer is designed to have a sign activation function, for which the circuit diagram is as follows:
 
 <p align="center">
-  <img src="./docs/sign.tiff" alt="Circuit of each neuron in the first layer" height=250/>
+  <img src="./docs/sign.jpg" alt="Circuit of each neuron in the first layer" height=250/>
 </p>
 
 Thanks to the Kirchhoff's Current Law (KCL), the neuron in the second layer is made only by connecting the outputs of the first layer neurons and a current source (as the bias). As an illustration the results of applying the weighted order statistic filter on a few signals to find their max, min, and median can be seen here:
