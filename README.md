@@ -32,7 +32,7 @@ Thanks to the Kirchhoff's Current Law (KCL), the neuron in the second layer is m
 </p>
 
 ## The Code
-The WOS network is implemented in HSPICE for simulation in CMOS 0.35 &#956;m process. In the time of the original simulations, a TSMC 0.35 &#956;m library file was used. You may use other libraries, probably with some minor alterations. The files include a netlist of the proposed neuron in the project, and a netlist of the filter itself. The configuration in the latter is chosen to showcase the filter working as a median operator, whereas with minor changes (some hinted in the comments in the file) it can be changed to any other weighted order statistic filter, based on the explanations of the [paper](./docs/2010-ICEDSA-NN-WOS.pdf). It performs a range of DC, transient, and corner tests.
+The WOS network is implemented in HSPICE for simulation in CMOS 0.35 &#956;m process. In the time of the original simulations, a TSMC 0.35 &#956;m library file was used. You may use other libraries, probably with some minor alterations. The files include a netlist of the proposed neuron in the project, and a netlist of the filter itself. The configuration in the latter is chosen to showcase the filter working as a median operator, whereas with minor changes (some hinted in the comments in the file) it can be changed to any other weighted order statistic filter, based on the explanations of the [paper](./docs/2010-ICEDSA-NN-WOS.pdf). It performs a range of DC sweep, transient, and corner tests.
 
 # Citation
 You may cite the [paper](https://doi.org/10.1109/ICEDSA.2010.5503078) published as a part of this project.
