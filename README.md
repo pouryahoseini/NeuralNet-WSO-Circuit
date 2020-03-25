@@ -17,7 +17,7 @@ Each neuron in the first layer is designed to have a sign activation function, f
   <img src="./docs/sign.jpg" alt="Circuit of each neuron in the first layer" height=250/>
 </p>
 
-Thanks to the Kirchhoff's Current Law (KCL), the neuron in the second layer is made only by connecting the outputs of the first layer neurons and a current source (as the bias). As an illustration the results of applying the weighted order statistic filter on a few signals to find their max, min, and median can be seen here (bold is the output):
+Thanks to the Kirchhoff's Current Law (KCL), the neuron in the second layer is made only by connecting the outputs of the first layer neurons and a current source (as the bias). As an illustration the results of applying the weighted order statistic filter on a few signals to find their max, min, and median can be seen here (red is the output):
 
 <p align="center">
   <img src="./docs/max-tran.jpg" alt="WOS filter working as a max filter" height=200/>
