@@ -1,4 +1,4 @@
-Neuron cell with a steep hyperbolic tangent activation function
+Neuron cell with a steep hyperbolic tangent activation function to mimic a sign activation function
 
 vdd	vdd	0	3.3
 
