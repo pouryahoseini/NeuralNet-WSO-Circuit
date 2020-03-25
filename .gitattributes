@@ -1,4 +1,4 @@
 # Set the programming language to the correct one
 docs/* linguist-documentation
 *.sp linguistic-detectable
-*.sp linguistic-language=SPICE
+*.sp linguistic-language=C
