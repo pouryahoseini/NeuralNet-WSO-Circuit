@@ -1,3 +1,5 @@
 # Set the programming language to the correct one
 *.sp linguistic-language=SPICE
 *.sp linguist-detectable
+docs/* linguist-documentation
+*.sp -linguist-vendored
