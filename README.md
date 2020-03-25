@@ -1,5 +1,5 @@
 ﻿
-# Neural Network CMOS Circuit as a Weighted Order Statistic Filter
+# Analog CMOS Circuit of a Neural Network as a Weighted Order Statistic Filter
 
 This is a hardware implementation of weighted order statistic (WOS) filter in CMOS 0.35 &#956;m process using a specific recurrent neural network. Weighted order statistic filters can select *k*^th^ largest value of a statistical sample with sample points being repeated based on their weight. Maximum, minimum, and median are special cases in their operation. One of their main applications is in signal processing and specifically in noise removal. 
 
