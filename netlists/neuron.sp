@@ -48,7 +48,7 @@ m22	19	4	0	0	nch	l=0.35u	w=2u
 m23	17	17	vdd	vdd	pch	l=0.35u	w=3u
 m24	18	18	vdd	vdd	pch	l=0.35u	w=3u
 
-* Test settings
+*** Test settings
 * Operating point
 .op
 .option post
