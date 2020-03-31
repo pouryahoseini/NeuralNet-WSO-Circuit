@@ -47,5 +47,8 @@ You may cite the [paper](https://doi.org/10.1109/ICEDSA.2010.5503078) published 
 }
 ```
 
+# Developers
+[Pourya Hoseini](https://github.com/pouryahoseini)
+
 # Contact
 I can be reached at hoseini@nevada.unr.edu.
